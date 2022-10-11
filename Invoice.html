@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles2.css">
+</head>
+
+<body>
+    <a href="index.html"><button class="btn btn-danger">Back to Main</button></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-inline-flex">
+                    <p class="h2 align-self-start">Invoice </p>
+                    <p class="h4 align-self-end mx-2"> Some examples to get you started</p>
+                </div>
+                <div class="col-auto">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control input1 mt-2" placeholder="Search for..."
+                                name="search">
+                            <div class="input-group-btn">
+                                <button class="btn gobutton bg-secondary text-light mt-2" type="submit">Go!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-block m-1 bg-white p-3 border-gris pt-2">
+            <div class="row">
+                <div class="col d-inline-flex align-items-center align-self-end">
+                    <p class="h5 mb-0">Invoice Design</p>
+                    <p class="m-0 mx-3">Sample user invoice design</p>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn iconbutton"><img src="imgs/arrowbtn.png"></img></button>
+                    <button type="button" class="btn iconbutton"><img src="imgs/tool.png"></img></button>
+                    <button type="button" class="btn iconbutton"><img src="imgs/x2.png"></img></button>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div class=" d-flex">
+                    <img src="imgs/world.png" width="40" height="40" alt="World" class="mt-1 mx-2">
+                    <p class="h1">Invoice.</p>
+                    <p class="h2">Date: 16/08/2016</p>
+                </div>
+                <div class="row m-1">
+                    <div class="col">
+                        <p class="lh-sm"><small>From<br><span class="font-weight-bold">Iron Admin, inc.</span><br>795 Freedom Ave, Suite
+                            600<br>New York,
+                            CA 94107
+                            <br>Phone: 1 (804) 123-9876<br>Email: ironadmin.com
+                        </small></p>
+                    </div>
+                    <div class="col">
+                        <p class="lh-sm"><small>To<br><span class="font-weight-bold">John Doe</span><br>795 Freedom Ave, Suite 600
+                            <br>New York, CA 94107<br>Phone: 1 (804) 123-9876<br>Email: jon@ironadmin.com
+                        </small></p>
+                    </div>
+                    <div class="col">
+                        <p class="lh-sm"><small><span class="font-weight-bold">Invoice #007612</span><br><br> <span class="font-weight-bold">
+                                Order ID: </span>4F3S8J<br><span class="font-weight-bold">Payment Due: </span>2/22/2014
+                            <br><span class="font-weight-bold">Account: </span>968-34567
+                        </small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive mb-3">
+                <table class="table table-striped fs-7">
+                    <thead>
+                        <tr>
+                            <th>Qty</th>
+                            <th>Product</th>
+                            <th>Serial #</th>
+                            <th>Description</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Call of Duty</td>
+                            <td>455-981-221</td>
+                            <td>El snort testosterone trophy driving gloves handsome gerry Richardson helvetica tousled
+                                street art
+                                master testosterone trophy driving gloves handsome gerry Richardson</td>
+                            <td>$64.50</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Need for Speed IV</td>
+                            <td>247-925-726</td>
+                            <td>Wes Anderson umami biodiesel</td>
+                            <td>$50.00</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monsters DVD</td>
+                            <td>735-845-642</td>
+                            <td>Terry Richardson helvetica tousled street art master, El snort testosterone trophy
+                                driving gloves
+                                handsome letterpress erry Richardson helvetica tousled</td>
+                            <td>$10.70</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Grown Ups Blue Ray</td>
+                            <td>422-568-642</td>
+                            <td>Tousled lomo letterpress erry Richardson helvetica tousled street art master helvetica
+                                tousled
+                                street art master, El snort testosterone</td>
+                            <td>$25.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <p class="h5">Payment Methods:</p>
+                    <img src="imgs/cards.png">
+                    <div class="bg-light border p-3 m-1">
+                        <p class="lh-sm m-0"><small>Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem
+                            plugg dopplr jibjab, movity jajah plickers
+                            sifteo edmodo ifttt zimbra.</small></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="h5">Amount Due 2/22/2014</p>
+                    <table class="table fs-7">
+                        <tr>
+                            <th>Subtotal:</th>
+                            <td>$250.30</td>
+                        </tr>
+                        <tr>
+                            <th>Tax (9.3%)</th>
+                            <td>$10.34</td>
+                        </tr>
+                        <tr>
+                            <th>Shipping:</th>
+                            <td>$5.80</td>
+                        </tr>
+                        <tr>
+                            <th>Total:</th>
+                            <td>$265.24</td>
+                        </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+            <div>
+                <button class="btn"><img src="imgs/print.png" width="20" height="20"> Print</button>
+                <button class="btn btn-primary"><img src="imgs/pdf.png" width="15" height="15"> Generate PDF</button>
+                <button class="btn bg-sticky text-white"><img src="imgs/submit.png" width="15" height="15"> Submit payment</button>
+            </div>
+        </div>
+</body>
+
+</html>

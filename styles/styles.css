@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(24, 25, 36);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.background1 {
+  background-color: rgb(36, 37, 47);
+}
+
+.background2 {
+  background-color: rgb(133, 125, 204);
+}
+
+.mainContenedor {
+  height: 100vh;
+}
+
+.button1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button2 {
+  color: white;
+  border: 1px solid white;
+  border-radius: 0px 8px 8px 0px;
+}
+
+span {
+  border: 1px solid;
+  margin: 0;
+  border-radius: 8px;
+  border-color: rgb(61, 62, 75);
+}
+
+.centerContent {
+  display: flex;
+  align-items: center;
+}
+
+.form1 {
+  border: 1px solid rgb(61, 62, 75);
+  background-color: rgb(56,57,66);
+  border-color: rgb(61, 62, 75);
+  border-radius: 0px 8px 8px 0px;
+}

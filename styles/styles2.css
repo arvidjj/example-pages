@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+    color: rgb(115, 135, 156);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-gris {
+    border: 1px solid #ccc;
+}
+
+.border-dashed{
+    border: 3px solid #ddd;
+    border-style:dashed;
+}
+
+.bg-sticky {
+    background-color: rgb(38, 185, 154);
+}
+
+.text-sticky {
+    color: rgb(38, 185, 154);
+}
+
+.bg-pee {
+    background-color: rgb(255,191,105);
+}
+
+.bg-formal {
+    background-color: rgb(233,236,239);
+}
+
+.input1 {
+    border: 1px solid #ccc;
+    border-radius: 16px 0px 0px 16px;
+    padding: 6px 125px 6px 20px;
+}
+
+.gobutton {
+    border-radius: 0px 16px 16px 0px ;
+    border: 1px solid #ccc;
+}
+
+.iconbutton {
+    margin: 0;
+    padding: 0;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.fs-7 {
+    font-size: 0.850em;
+}
+
+#pfp {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 3px;
+  }
+
+  #hoverable:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.btntemplate {
+    background:none;
+    font-size:inherit;
+    font-weight:inherit;
+    cursor: pointer;
+    border: none;
+    margin: 0px 0px;
+}
+
+.imgSquare{
+    border: 1px solid #ddd;
+    width:125px;
+    height:125px;
+    margin: 15px;
+}
+
+.imgSquare:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  #imgProd {
+    width: 100px;
+  }
+
+  #menuMains {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+  }
+
+  .mainImgSquare{
+    border: 1px solid #ddd;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+}
+
+.mainImgSquare:hover {
+    box-shadow: 0 0 3px 2px rgb(52,152,219);
+  }
